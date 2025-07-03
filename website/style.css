@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  line-height: 1.6;
+  color: #333;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #000;
+}
+
+.navbar a {
+  color: #fff;
+  padding: 1rem;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #444;
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 1rem;
+  background: url('hero.jpg') center/cover no-repeat;
+  color: #fff;
+}
+
+.hero .btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background: #e27d60;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.services, .about, .contact {
+  padding: 2rem 1rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #000;
+  color: #fff;
+}
+
+.navbar.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
